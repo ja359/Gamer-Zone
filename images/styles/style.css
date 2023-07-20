@@ -22,10 +22,6 @@ nav{
     gap: 5px;
     font-size: 40px;
 }
-.fa-solid{
-    width: 90px;
-    height: 40px;
-}
 .game{
     background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
     background-clip: text;
@@ -49,3 +45,80 @@ nav{
 /* nav part end */
 
 /* banner part start */
+
+.banner-container{
+ max-width:1200px;
+min-height: 130px;
+display: flex;
+justify-content: center;
+align-items: center;
+ margin: 0 auto ; 
+
+}
+.text-container{
+    display: flex;
+    gap: 10px;
+    padding-bottom: 100px;
+} 
+    .banner-title h3{
+        font-size:48px;
+        font-family: Work Sans;
+font-weight: 600;
+    }
+    .banner-title h1{
+        font-family: Work Sans;
+font-size: 95px;
+font-weight: 800;;
+background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+-webkit-background-clip: text;
+color: transparent;
+}
+
+
+.icon{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 25px;
+}
+.click{
+    padding-top: 6px;
+}
+.fa-user{
+    padding-top: 9px;
+}
+.banner-title{
+    width: 50%;
+    margin-right: 10px;
+}
+.banner-img{
+    width: 50%;
+    object-fit: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sign{
+    border-radius: 48px;
+    background-color: #FF42A5;
+padding: 20px;
+color: white;
+font-size: 20px;
+}
+.btn{
+    border-radius: 48px;
+    background-color:#4EC5F7;;
+padding: 20px;
+color: white;
+font-size: 20px;
+}
+/* banner part ends */
+
+
+
+@media screen and (max-width:500px){
+   .nav-container{
+  
+   
+   }
+}
