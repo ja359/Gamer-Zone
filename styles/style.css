@@ -1,0 +1,211 @@
+* {
+    box-sizing: border-box;
+}
+
+nav {
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+
+.nav-container {
+    width: 1900px;
+    min-height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.nav-title {
+    width: 50%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    font-size: 40px;
+}
+
+.game {
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.nav-icon {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.follow {
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    padding: 10px;
+}
+
+.nav-container a {
+    text-decoration: none;
+}
+
+/* nav part end */
+
+/* banner part start */
+
+.banner-container {
+    width: 1900px;
+    min-height: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+
+}
+
+.text-container {
+    display: flex;
+    gap: 10px;
+    padding-bottom: 100px;
+}
+
+.banner-title h3 {
+    font-size: 48px;
+    font-family: Work Sans;
+    font-weight: 600;
+}
+
+.banner-title h1 {
+    font-family: Work Sans;
+    font-size: 95px;
+    font-weight: 800;
+    ;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.icon {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 25px;
+}
+
+.click {
+    padding-top: 6px;
+}
+
+.fa-user {
+    padding-top: 9px;
+}
+
+.banner-title {
+    width: 50%;
+    margin-right: 10px;
+}
+
+.banner-img {
+    width: 50%;
+    object-fit: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sign {
+    border-radius: 48px;
+    background-color: #FF42A5;
+    padding: 20px;
+    color: white;
+    font-size: 20px;
+    border: none;
+}
+
+.btn {
+    border-radius: 48px;
+    background-color: #4EC5F7;
+    ;
+    padding: 20px;
+    color: white;
+    font-size: 20px;
+    border: none;
+}
+
+/* banner part end */
+
+
+/* bonus part start */
+
+.bonous{
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+}
+.gamer-container {
+    max-width: 1900px;
+    display: flex;
+    text-align: right;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    height: 600px;
+    margin: 0 auto;
+  
+}
+.gamer-text{
+    text-align: right;
+    color: #534C64;
+text-align: right;
+font-family: Work Sans;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+}
+.para{
+    color: #534C64;
+text-align: right;
+font-family: Work Sans;
+font-size: 24px;
+font-weight: 500;
+line-height: 45px;
+}
+.unleash{
+    text-align: right;
+    color: #534C64;
+font-family: Work Sans;
+font-size: 32px;
+font-weight: 700;
+line-height: 45px;
+}
+  
+.gamer-text-container h3 {
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-weight: 700;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.gamer-img {
+    width: 100%;
+}
+.know{
+    text-align: right;
+    border-radius: 48px;
+    background-color: #FF42A5;
+    padding: 20px;
+    color: white;
+    font-size: 20px;
+    border: none;
+}
+/* bonous part end */
+
+
+
+
+
+
+@media screen and (max-width:500px) {}
