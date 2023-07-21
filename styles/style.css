@@ -319,28 +319,33 @@ nav {
 
 
 /* icons section start */
-.icons{
+.icons {
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
     display: flex;
     justify-content: center;
     align-content: center;
-    
-  
+
+
 }
+
 .icons-container {
     width: 1950px;
     height: 430px;
     display: grid;
-    grid-template-columns: repeat(5,1fr);
+    grid-template-columns: repeat(5, 1fr);
     justify-content: center;
     align-items: center;
 
 }
 
+.image-container .arcade {
+    border-radius: 2px solid #F948B2;
+}
+
 .image-container {
     width: 243px;
     height: 80px;
-    border-radius: 50px; 
+    border-radius: 50px;
     font-size: 20px;
     font-weight: 600;
     display: flex;
@@ -348,13 +353,72 @@ nav {
     align-items: center;
     background-color: #FFF;
 }
-.image-container img{
+
+.image-container img {
     width: 60px;
     height: 60px;
 }
+
 /* icons part ends */
 
 
+/* footer section starts */
+
+footer {
+    background-color: #0B0223;
+}
+
+.footer-container {
+    width: 1900px;
+    height: 636px;
+    color: #FFF;
+    align-content: center;
+    padding-top: 120px;
+   
+}
+
+.footer-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.footer-img {
+    width: 86.041px;
+    height: 40px;
+}
+
+.our-story {
+    font-size: 18px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    padding: 10px;
+
+}
+.fa-brands{
+    height: 50px;
+    width: 50px;
+}
+
+.footer-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   padding-top: 50px;
+    
+}
+.terms{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    color:rgba(255, 255, 255, 0.60);;
+}
 
 
 
