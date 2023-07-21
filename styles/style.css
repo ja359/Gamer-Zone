@@ -154,20 +154,21 @@ nav {
     height: 600px;
     margin: 0 auto;
 }
-.gamer-text-container{
+
+.gamer-text-container {
     width: 50%;
     text-align: right;
 }
 
-.gamer-text{
+.gamer-text {
     text-align: right;
     color: #534C64;
     font-family: Work Sans;
     font-size: 18px;
-  
+
 }
 
-.para{
+.para {
     color: #534C64;
     text-align: right;
     font-family: Work Sans;
@@ -195,15 +196,15 @@ nav {
     -webkit-text-fill-color: transparent;
 }
 
-.know{
-    text-align:center;
+.know {
+    text-align: center;
     border-radius: 48px;
     background-color: #FF42A5;
     padding: 20px;
     color: white;
     font-size: 20px;
     border: none;
-    
+
 }
 
 /* bonous part end */
@@ -219,7 +220,7 @@ nav {
     width: 1900px;
     text-align: center;
     margin: 20px auto;
-    
+
 }
 
 .online-games {
@@ -236,7 +237,7 @@ nav {
     font-weight: 700;
 }
 
-.funny-video-container p .play-text-conainer p{
+.funny-video-container p .play-text-conainer p {
     color: #534C64;
     font-family: Work Sans;
     font-size: 18px;
@@ -250,22 +251,23 @@ nav {
     align-items: center;
     gap: 20px;
 }
-.breaking-game{
+
+.breaking-game {
     position: relative;
 }
-.black{
+
+.black {
     position: absolute;
-    top:calc(100%/2);
+    top: calc(100%/2);
     left: calc(100%/2);
     font-size: 20px;
     font-weight: 500;
     text-align: center;
-   
+
 }
 
-
-
 /* funny part ends */
+
 /* play instant starts */
 
 .play-text {
@@ -280,13 +282,15 @@ nav {
     gap: 190px;
     margin: 0 auto;
 }
-.play-text-conainer{
+
+.play-text-conainer {
     width: 900px;
 }
-.play-instantly{
+
+.play-instantly {
     color: #F948B2;
     font-size: 48px;
-font-weight: 700;
+    font-weight: 700;
 }
 
 .parent {
@@ -297,7 +301,7 @@ font-weight: 700;
 .play-img {
     width: 60%;
     width: 634.833px;
-height: 650px;
+    height: 650px;
 
 }
 
@@ -310,6 +314,45 @@ height: 650px;
     left: -10px;
     top: 350px;
 }
+
+/* play instantly ends */
+
+
+/* icons section start */
+.icons{
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    
+  
+}
+.icons-container {
+    width: 1950px;
+    height: 430px;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    justify-content: center;
+    align-items: center;
+
+}
+
+.image-container {
+    width: 243px;
+    height: 80px;
+    border-radius: 50px; 
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFF;
+}
+.image-container img{
+    width: 60px;
+    height: 60px;
+}
+/* icons part ends */
 
 
 
