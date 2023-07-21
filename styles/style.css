@@ -44,6 +44,7 @@ nav {
     border-radius: 8px;
     background: rgba(11, 2, 35, 0.10);
     padding: 10px;
+    text-align: center;
 }
 
 .nav-container a {
@@ -325,10 +326,9 @@ nav {
     justify-content: center;
     align-content: center;
 
-
 }
 
-.icons-container {
+.icons-container a {
     width: 1950px;
     height: 430px;
     display: grid;
@@ -336,10 +336,6 @@ nav {
     justify-content: center;
     align-items: center;
 
-}
-
-.image-container .arcade {
-    border-radius: 2px solid #F948B2;
 }
 
 .image-container {
@@ -359,6 +355,15 @@ nav {
     height: 60px;
 }
 
+.icons-container a {
+    text-decoration: none;
+}
+
+.icons-container a:hover{
+    color: #F948B2;
+  
+}
+
 /* icons part ends */
 
 
@@ -374,7 +379,7 @@ footer {
     color: #FFF;
     align-content: center;
     padding-top: 120px;
-   
+
 }
 
 .footer-title {
@@ -400,26 +405,75 @@ footer {
     padding: 10px;
 
 }
-.fa-brands{
+
+.fa-brands {
     height: 50px;
     width: 50px;
 }
 
-.footer-icon{
+.footer-icon {
     display: flex;
     justify-content: center;
     align-items: center;
-   padding-top: 50px;
-    
+    padding-top: 50px;
+
 }
-.terms{
+
+.terms {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 60px;
-    color:rgba(255, 255, 255, 0.60);;
+    color: rgba(255, 255, 255, 0.60);
+}
+
+icons-container:hover {
+    background-color: #F948B2;
 }
 
 
 
-@media screen and (max-width:500px) {}
+@media screen and (max-width:480px){
+.nav-container{
+    flex-direction: column;
+}
+.nav-icon{
+    flex-direction: column;
+    gap: 20px;
+}
+.banner-container{
+    flex-direction: column;
+    
+}
+.banner-img{
+    flex-direction: column;
+ width:400px;
+}
+.gamer-container{
+    flex-direction: column;
+}
+
+.online-games {
+    font-size: 30px;
+    font-weight: 700;
+}
+.funny-img-container{
+    display: grid;
+    grid-template-columns: repeat(1,fr);
+}
+.funny{
+    font-size: 30px;
+    font-weight: 700;
+}
+.play-text{
+    flex-direction: column;
+    gap: 30px;
+}
+.parent{
+      width: 70px;
+}
+.icons-container{
+    display: grid;
+    grid-template-columns: repeat(3,3fr);
+}
+}
